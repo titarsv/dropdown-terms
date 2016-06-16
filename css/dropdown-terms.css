@@ -1,0 +1,21 @@
+body.taxonomy-product_cat tbody table.wp-list-table tr,
+body.edit-tags-php tbody table.wp-list-table tr{
+    display: none;
+}
+body.taxonomy-product_cat table.wp-list-table th.column-thumb{
+    width: 80px;
+}
+body.taxonomy-product_cat table.wp-list-table .column-drop,
+body.edit-tags-php table.wp-list-table .column-drop{
+    text-align: center;
+}
+body.taxonomy-product_cat table.wp-list-table tbody .column-drop,
+body.edit-tags-php table.wp-list-table tbody .column-drop{
+    font-size: 22px;
+}
+#product_catchecklist li .children, .product_cat-checklist li .children{
+    display: none;
+}
+#product_catchecklist li.active > .children, .product_cat-checklist li.active > .children{
+    display: block;
+}
